@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: execSummary_njb.aux
+The style file: plain.bst
+Database file #1: refs.bib
+Warning--to sort, need author or key in Top500
+Warning--empty author in Top500
+Warning--empty booktitle in Top500
+You've used 3 entries,
+            2118 wiz_defined-function locations,
+            516 strings with 4580 characters,
+and the built_in function-call counts, 965 in all, are:
+= -- 82
+> -- 56
+< -- 0
++ -- 23
+- -- 20
+* -- 75
+:= -- 162
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 19
+chr.to.int$ -- 0
+cite$ -- 6
+duplicate$ -- 31
+empty$ -- 77
+format.name$ -- 20
+if$ -- 195
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 2
+newline$ -- 18
+num.names$ -- 4
+pop$ -- 27
+preamble$ -- 1
+purify$ -- 16
+quote$ -- 0
+skip$ -- 21
+stack$ -- 0
+substring$ -- 36
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 12
+warning$ -- 3
+while$ -- 5
+width$ -- 4
+write$ -- 32
+(There were 3 warnings)

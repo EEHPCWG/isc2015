@@ -1,0 +1,21 @@
+\begin{thebibliography}{1}
+
+\bibitem{Top500}
+{T}op500 {S}upercomputer {S}ites.
+\newblock November 2014.
+\newblock \url{http://www.top500.org/lists/2014/11}.
+
+\bibitem{BatesESP}
+Natalie Bates, Girish Ghatikar, Ghaleb Abdulla, Gregory~A. Koenig, Sridutt
+  Bhalachandra, Mehdi Sheikhalishahi, Tapasya Patki, Barry Rountree, and
+  Stephen Poole.
+\newblock {Electrical Grid and Supercomputing Centers: An Investigative
+  Analysis of Emerging Opportunities and Challenges}.
+\newblock {\em Informatik-Spektrum}, 38(2):111--127, 2015.
+
+\bibitem{SmartGrid}
+US~Department of~Energy.
+\newblock {Smart Grid}, 2015.
+\newblock \url{https://www.smartgrid.gov/the_smart_grid/smart_grid}.
+
+\end{thebibliography}
