@@ -1,57 +1,68 @@
 \section{Qualitative Analysis: Site-Specific Interviews}
 
-The results presented in the previous section were based on data gathered through a questionnaire created for HPC centers based on experience from a United States context. The preliminary results of the comparison across the geographical regions gave the impression that European SCs had very limited communication with their ESPs with respect to grid integration. However, it was apparent that some SCs in Europe engage in collaboration with their ESPs in order to ensure minimal fluctuations as well as for forecasting of deviations from normal power consumption patterns. In order to shed light on the details of the relationships between SCs and ESPs that were not captured in the questionnaire we designed a qualitative interview and surveyed ORNL, LLNL and LRZ. The thesis is that a qualitative analysis will yield more complete information and will enable us to present more thorough comparative study on the status of grid integration of SCs in Europe and the US. Table \ref{tabIntw} presents details of this qualitative analysis. We have recorded the results in a tabular form to facilitate comparison between the three sites under consideration. 
+The results presented in the previous section were based on data gathered through a questionnaire created for HPC centers based on experience from a United States context. The preliminary results of the comparison across the geographical regions gave the impression that European SCs had very limited communication with their ESPs with respect to grid integration. However, it was apparent that some SCs in Europe engage in collaboration with their ESPs in order to ensure minimal fluctuations as well as for forecasting of deviations from normal power consumption patterns. In order to shed light on the details of the relationships between SCs and ESPs that were not captured in the questionnaire, we designed a qualitative interview and surveyed ORNL, LLNL and LRZ. The thesis was that a qualitative analysis will yield more complete information and will enable us to present more thorough comparative study on the status of grid integration of SCs in Europe and the US. For each site, we asked the questions listed below. We present the information from each SC in the subsections that follow.
 
-\begin{table}
-\centering
-\label{tabIntw} 
-\begin{tabular}{|l|l|l|l|}
- \hline
- \bf{Site} & \bf{ORNL} & \bf{LLNL} & \bf{LRZ} \\ 
- \hline
- HPC System & Titan & Sequoia & SuperMUC \\ 
- \hline
- HPC workload & Basic Science & Basic and & Academic \\
- type &&Nuclear Science&\\
- \hline
- HPC workload & Low & Mission-critical & Low\\
- criticality&&&\\
- \hline
-Point of contact & Jim Rogers & Anna-Maria Bailey & Herbert Huber\\
-\hline
-Responsibility & None, contract & None, contract & None, contract \\
-in negotiating & negotiated by DOE & negotiated by DOE & negotiated at \\
-contract with&&&the site-level by\\
-ESP &&&management\\
-\hline
-Electricity &Demand as well&Only energy & Energy is very\\
-Pricing & as energy charges,&charges, flat&expensive, high power \\
-Structure & depends on season&rate, relatively&taxes as well as\\
-&and time of day. &cheap. Thus care about&season dependent.\\
-&Operate within&utilizing all &Operate within\\
-&a power band&allocated power&power band\\
-\hline
-Power cost & & & \\
-as percentage&About 25-30\%&Under 8\%&About 50\%\\
-of TCO&&&\\
-\hline
-Obligations &&&\\
-Toward ESPs &None, and&None, and&None, and\\
-(and offered & no incentive either& no incentive either&no incentive either\\
-incentives for &&&\\
- the same)&&&\\
-\hline
-Services for &None, except&None, except&None, except\\
-ESPs&maintenance or&maintenance or&maintenance or\\
-&general&general&general\\
-&forecasting&forecasting&forecasting\\
-\hline
-Future &Will use the &Will use the&Will use the \\
-relationship &same, reliable ESP&same, reliable ESP&same ESP, flexibility\\
-with ESP&&&decisions are political.\\
-\hline
- \end{tabular}
- \end{table}
+\begin{itemize}
+\item {What is your responsibility for negotiating the contract between your HPC facility and your ESP? }
+\item {Could you elaborate on the details of the pricing structure on your electricity? Note that for this question, we did not request specific information on the actual price the SC pays for electricity. We were mostly interested in the type of pricing program they are enrolled in.} 
+\item {Do you have any obligations towards your ESP, and if so, what is your incentive towards committing to these obligations? These obligations are characterized by being static and ?pre-smart grid? in the sense that no real-time communication is needed between ESP and SC. Examples include limits for allowed variability in power consumption and/or fixed power consumption limits. Examples for potential incentives include reduction in electricity price, enabling of direct payments and legislation benefits. }
+\item{Do you offer any kind of services for your ESP, and if so, what is your incentive for offering these services? These services are characterized by two way communication between the site and the ESP, where a consumer reacts to information sent by the ESP. Examples include load capping, powering up backup generations, etc.}
+\item{How do you envision your future relationship with your electricity provider? (Possible answers were: tighter, for example, by selling local generation capacity; or looser, for example, by being self-sufficient with regards to electricity needs.}
+\end{itemize}
+
+
+%Table \ref{tabIntw} presents details of this qualitative analysis. We have recorded the results in a tabular form to facilitate comparison between the three sites under consideration. 
+%
+%\begin{table}
+%\centering
+%\label{tabIntw} 
+%\begin{tabular}{|l|l|l|l|}
+% \hline
+% \bf{Site} & \bf{ORNL} & \bf{LLNL} & \bf{LRZ} \\ 
+% \hline
+% HPC System & Titan & Sequoia & SuperMUC \\ 
+% \hline
+% HPC workload & Basic Science & Basic and & Academic \\
+% type &&Nuclear Science&\\
+% \hline
+% HPC workload & Low & Mission-critical & Low\\
+% criticality&&&\\
+% \hline
+%Point of contact & Jim Rogers & Anna-Maria Bailey & Herbert Huber\\
+%\hline
+%Responsibility & None, contract & None, contract & None, contract \\
+%in negotiating & negotiated by DOE & negotiated by DOE & negotiated at \\
+%contract with&&&the site-level by\\
+%ESP &&&management\\
+%\hline
+%Electricity &Demand as well&Only energy & Energy is very\\
+%Pricing & as energy charges,&charges, flat&expensive, high power \\
+%Structure & depends on season&rate, relatively&taxes as well as\\
+%&and time of day. &cheap. Thus care about&season dependent.\\
+%&Operate within&utilizing all &Operate within\\
+%&a power band&allocated power&power band\\
+%\hline
+%Power cost & & & \\
+%as percentage&About 25-30\%&Under 8\%&About 50\%\\
+%of TCO&&&\\
+%\hline
+%Obligations &&&\\
+%Toward ESPs &None, and&None, and&None, and\\
+%(and offered & no incentive either& no incentive either&no incentive either\\
+%incentives for &&&\\
+% the same)&&&\\
+%\hline
+%Services for &None, except&None, except&None, except\\
+%ESPs&maintenance or&maintenance or&maintenance or\\
+%&general&general&general\\
+%&forecasting&forecasting&forecasting\\
+%\hline
+%Future &Will use the &Will use the&Will use the \\
+%relationship &same, reliable ESP&same, reliable ESP&same ESP, flexibility\\
+%with ESP&&&decisions are political.\\
+%\hline
+% \end{tabular}
+% \end{table}
 
 \subsection{ORNL}
 The DOE negotiates the contract for three sites including that of Titan at ORNL.  We don?t get our electricity from a local co-op, we get it directly from TVA. What the DOE and TVA negotiate each year is the capacity that is being provisioned. We usually pick a range; at present it is 35 MW to 75MW. We typically run at 50MW. We have two kinds of charges, a demand charge, which is fixed for a month, and an energy charge based on actual consumption. The demand charge is determined by analyzing 30 min blocks and determining the peak or max value for the month. . Scheduling loads across our sites is a tough scheduling problem. We only care about being under the 75MW limit because going over that means trouble for us. We have a 100M machine, the cost of which depreciated by 20K per hour. Hence, we have absolutely no financial incentive in minimizing the demand charge because we?ll never break even. We want to run our machine as hot as it can, doing as much work as it can. The energy charge for us is a step function. The more energy in kwh we consume, the lower is our energy cost, which is why we want to keep our system fully utilized and run it hot. We run at 90\% node utilization. 
