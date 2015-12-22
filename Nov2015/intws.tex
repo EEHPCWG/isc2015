@@ -1,4 +1,5 @@
 \section{Qualitative Analysis: Site-Specific Interviews}
+\label{intws}
 
 The results presented in the previous section were based on data gathered through a questionnaire created for HPC centers based on experience from a United States context. The preliminary results of the comparison across the geographical regions gave the impression that European SCs had very limited communication with their ESPs with respect to grid integration. 
 However, it was apparent that some SCs in Europe engage in collaboration with their ESPs in order to ensure minimal fluctuations as well as for forecasting of deviations from normal power consumption patterns. 
@@ -76,16 +77,36 @@ ORNL does not have any obligations and provide any services to its ESP.  The onl
 In the case of LLNL, the DOE negotiates the contract with the ESP with the help of a consulting company called Exeter.  A bulk purchase of power is made for about 100 MW of power capacity from the California-Oregon Transmission Project or COTP and is shared between LLNL and two other DOE sites. PG\&E is used for transmission and distribution and WAPA is used for generation. In terms of electricity pricing, LLNL does not pay a demand charge, but only pays a flat energy charge of about 4.5 cents per kWh, which is on the lower side when compared to the industry. Forecasting is done on a regular basis to be a good citizen. There is no financial incentive to save energy costs. There are no obligations from the ESP and no services are provided. The goal is to keep the site fully utilized in terms of power and to minimize leftover power.  
 
 \subsection{LRZ}
-For LRZ, the contract is negotiated at the site-level by management. The Munich Power Company negotiates the power costs for them on the European Power Exchange. Energy costs are vert expensive for LRZ. They operate in a 4 to 6 MW power band. Typically, they pay about 17.8 eurocents per kWh. Additionally, they pay some taxes and charges for power supplier, grid and renewable energy, which can be significant. Having consistent power consumption is usually considered better, and power swings result in much higher electricity costs. It is thus imperative to be able to forecast any power swings and to inform the ESP about the same. Better prediction models for power usage will definitely benefit LRZ in terms of electricity costs, as one of their goals is to save on energy costs. This is primarily because their energy costs dominate their operational costs.. Typically, LRZ lets the ESP know about 2 days in advance for any scheduled downtimes. At present, there are no major obligations toward or services provided to the ESP, mostly because of the QOS guarantees that have to be adhered to for their users. 
-%
-%\section{Discussion}
-%\label{comm}
-%From the comments section in our questionnaire, we noted that all SCs are already using \emph{demand forecasting} to communicate their upcoming demands and maintenance cycle schedules with their ESPs. For example, one comment was ``We project hourly average power at least a day in advance, within +/- 1MW''. Another interesting comment was ``We've to ensure that our power load neither over- nor undershoots the contracted power band. In any cases of foreseen power abnormalities we've to inform our grid provider at least two days ahead of schedule.''
-%
-%One of the SCs mentioned that they could not provide the forecast that was being asked by their ESP. More specifically, their comment indicated that their ESP asked for ``multi-year forecast of energy requirements, additional detailed forecasting and ultimately real time data, and power projections, hour by hour, for at least a day in advance.''
-%
-%When it came to ESP programs, the United States SCs showed more interest. ``Our site generates 30-35 MW of power yet still imports 5-10 MW. As a large generation source the utility providers see the campus as a highly attractive partner for offloading grid stress. automatic load shedding is being explored/deployed today, '' one of the SCs noted. Another comment was ``[We are] working on load sharing of data with utility to provide better scheduling tools and address potential grid changes.'' One of the SCs mentioned that they demonstrated that peak shedding and shifting was possible, but not deployed due to its impact on HPC productivity. 
-%
-%The European SCs, on the other had, did not have much knowledge about ESP programs. Some of the responses were ``There are not so many related options and features offered by providers. We are open to further and pro-active efforts as long as providers have other kinds of programs to propose'' and ``With many of your questions I am wondering about the kind of contracts other centers might have and about the quality of some electricity providers.''
-%
-%The comments also indicated that the SCs in United States are investigating the impact of power fluctuations on the electrical grid. ``[We are] working directly with provider to ensure that the effects of large load swings are understood. Have funded a simulation that accounts for all loads.'' and ``Our provider has no problem with our load swings. They indicate no concern with our next system either, but we are still looking into possible options in case there actually is a problem.'' were some of the interesting responses.
+The power contract between LRZ and \emph{Stadtwerke München}, a Munich Power Company
+is the result of pan-European procurement. LRZ purchases a basic power band for one
+or multiple years at the European power stock exchange. Hence, the power price is
+determined by the European stock market. Additionally, there are charges for the
+power grid, renewable energy, concession levy as well as taxes which are significant.
+The charges for power generation and distribution constitute only 25\% of
+the power price in Germany. As a result, the energy costs are very expensive for LRZ.
+
+LRZ operates in a 4 to 6 MW power band. Typically, they pay about
+17.8 Euro-cents per kWh. Having consistent power consumption is usually considered better,
+as huge power swings result in much higher electricity costs. It is thus imperative
+to be able to forecast any power swings and to inform the ESP about
+the same. Better prediction models for power usage will definitely benefit
+LRZ in terms of electricity costs, as one of their goals is to save on
+energy costs. This is primarily because their energy costs dominate their
+operational costs. Typically, LRZ lets the ESP know about 2 days in
+advance for any scheduled downtimes. At present, there are no major
+obligations toward or services provided to the ESP, mostly because of
+the QOS guarantees that have to be adhered to for their users.
+
+\subsection{Analysis}
+
+\section{Other Comments}
+\label{comm}
+From the comments section in our questionnaire, we noted that all SCs are already using \emph{demand forecasting} to communicate their upcoming demands and maintenance cycle schedules with their ESPs. For example, one comment was ``We project hourly average power at least a day in advance, within +/- 1MW''. Another interesting comment was ``We've to ensure that our power load neither over- nor undershoots the contracted power band. In any cases of foreseen power abnormalities we've to inform our grid provider at least two days ahead of schedule.''
+
+One of the SCs mentioned that they could not provide the forecast that was being asked by their ESP. More specifically, their comment indicated that their ESP asked for ``multi-year forecast of energy requirements, additional detailed forecasting and ultimately real time data, and power projections, hour by hour, for at least a day in advance.''
+
+When it came to ESP programs, the United States SCs showed more interest. ``Our site generates 30-35 MW of power yet still imports 5-10 MW. As a large generation source the utility providers see the campus as a highly attractive partner for offloading grid stress. automatic load shedding is being explored/deployed today, '' one of the SCs noted. Another comment was ``[We are] working on load sharing of data with utility to provide better scheduling tools and address potential grid changes.'' One of the SCs mentioned that they demonstrated that peak shedding and shifting was possible, but not deployed due to its impact on HPC productivity. 
+
+The European SCs, on the other had, did not have much knowledge about ESP programs. Some of the responses were ``There are not so many related options and features offered by providers. We are open to further and pro-active efforts as long as providers have other kinds of programs to propose'' and ``With many of your questions I am wondering about the kind of contracts other centers might have and about the quality of some electricity providers.''
+
+The comments also indicated that the SCs in United States are investigating the impact of power fluctuations on the electrical grid. ``[We are] working directly with provider to ensure that the effects of large load swings are understood. Have funded a simulation that accounts for all loads.'' and ``Our provider has no problem with our load swings. They indicate no concern with our next system either, but we are still looking into possible options in case there actually is a problem.'' were some of the interesting responses.
