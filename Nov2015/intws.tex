@@ -7,11 +7,81 @@ In order to shed light on the details of the relationships between SCs and ESPs 
 
 \begin{itemize}
 \item {What is your responsibility for negotiating the contract between your HPC facility and your ESP? }
-\item {Could you elaborate on the details of the pricing structure on your electricity? Note that for this question, we did not request specific information on the actual price the SC pays for electricity. We were mostly interested in the type of pricing program they are enrolled in.} 
-\item {Do you have any obligations towards your ESP, and if so, what is your incentive towards committing to these obligations? These obligations are characterized by being static and ?pre-smart grid? in the sense that no real-time communication is needed between ESP and SC. Examples include limits for allowed variability in power consumption and/or fixed power consumption limits. Examples for potential incentives include reduction in electricity price, enabling of direct payments and legislation benefits. }
+\item {Could you elaborate on the details of the pricing structure on your electricity? Note that for this question, we did not request specific information on the actual price the SC pays for electricity. We were mostly interested in the type of pricing program they were enrolled in.} 
+\item {Do you have any obligations towards your ESP, and if so, what is your incentive towards committing to these obligations? These obligations are characterized by being static and pre-smart grid, in the sense that no real-time communication is needed between ESP and SC. Examples include limits for allowed variability in power consumption and/or fixed power consumption limits. Examples for potential incentives include reduction in electricity price, enabling of direct payments and legislation benefits. }
 \item{Do you offer any kind of services for your ESP, and if so, what is your incentive for offering these services? These services are characterized by two way communication between the site and the ESP, where a consumer reacts to information sent by the ESP. Examples include load capping, powering up backup generations, etc.}
 \item{How do you envision your future relationship with your electricity provider? (Possible answers were: tighter, for example, by selling local generation capacity; or looser, for example, by being self-sufficient with regards to electricity needs.}
 \end{itemize}
+
+\subsection{ORNL}
+For ORNL, DOE negotiates the contract with the ESP.  ORNL gets its power from TVA, which generates, transmits and distributes the power. The DOE and TVA negotiate the power capacity that is being provisioned each year. Typically, a range for operation is chosen, for the current year, this range is 35 MW to 75 MW. 
+In terms of electricity pricing, ORNL incurs two kinds of charges: a demand charge, which is fixed for a month, and an energy charge based on actual power consumption. The demand charge is determined by analyzing 30 minute blocks and by determining the peak or maximum value for the month. The demand charge can be off-peak or on-peak based on the time of the day. It has a time-of-use per day component. The base charge for energy is under 4 cents per kwh, which is low when compared to the industry.Including all the costs as well as seasonal charges, ORNL pays about 9.4 cents per kWh. ORNL's provider, TVA, is not affected by power swings of a few megawatts (5 to 8 MW) and is very reliable. The goal for ORNL is to keep keep its HPC systems fully utilized in terms of power. 
+
+ORNL does not have any obligations and provide any services to its ESP.  The only requirement is to operate in the range that was negotiated (35 MW to 75 MW). They have a model that explains their power usage that they provide to the TVA annually, but there is no two-way communication or forecasting. In general, the capital expenditure for the SC at ORNL dominates the operational costs. As the HPC system cost depreciates with time (for example, Titan's depreciation is about 20K dollars per hour), there is little financial incentive to be flexible and to save on electricity costs. The goal is thus to keep their site fully utilized in terms of power. 
+
+\subsection{LLNL}
+In the case of LLNL,  DOE negotiates the contract with the ESP with the help of a consulting company called Exeter.  A bulk purchase of power is made for about 100 MW of power capacity from the California-Oregon Transmission Project (or COTP) and is shared between LLNL and two other DOE sites. PG\&E and WAPA are used for transmission and distribution. In terms of electricity pricing, LLNL does not pay a demand charge, but only pays a flat energy charge of about 4.5 cents per kWh, which is on the lower side when compared to the industry. Forecasting is done on a regular basis in order to be a good citizen. There is no financial incentive to save energy costs. Additionally, there are no obligations from the ESP and no services are provided. The goal is to keep the site fully utilized in terms of power and to minimize leftover power.  
+
+\subsection{LRZ}
+The power contract between LRZ and \emph{Stadtwerke München}, a Munich Power Company
+is the result of pan-European procurement. LRZ purchases a basic power band for one
+or multiple years at the European power stock exchange. Hence, the power price is
+determined by the European stock market. Additionally, there are charges for the
+power grid, renewable energy, concession levy as well as taxes which are significant.
+The charges for power generation and distribution constitute only 25\% of
+the power price in Germany. As a result, the energy costs are very expensive for LRZ.
+
+LRZ operates in a 4 to 6 MW power band. Typically, they pay about
+17.8 Euro-cents per kWh. Having consistent power consumption is usually considered better,
+as huge power swings result in much higher electricity costs. It is thus imperative
+to be able to forecast any power swings and to inform the ESP about
+the same. Better prediction models for power usage will definitely benefit
+LRZ in terms of electricity costs, as one of their goals is to save on
+energy costs. This is primarily because their energy costs dominate their
+operational costs. Typically, LRZ lets the ESP know about 2 days in
+advance for any scheduled downtimes. At present, there are no major
+obligations toward or services provided to the ESP, mostly because of
+the QOS guarantees that have to be adhered to for their users.
+
+\subsection{Analysis}
+This is a good summary. 
+
+Hi Tapasya -- I have some minor modifications and additions to the section with some background text that you can use to interweave it into section 4. 
+
+Our interviews with SCs focused on:
+Annual electricity purchase negotiations and pricing structure (kW, kWh, $/kW, and $/kWh)
+Characterizing SC's electricity use, relative to larger campus
+Motivation for demand management to lower peak power and energy use
+Demand management potential and services offered
+Anticipated future relationship with ESPs.
+These interviews results helps understanding the power purchase relationships, energy use, demand management flexibility, and any motivation to reduce electricity use and/or costs. 
+
+Similarities:  
+Annual negotiation (Power purchase negotiations)
+Power band (for operations);  ORNL and LRZ, not sure about LLNL (they do have an upper-bound)
+Negotiation done for larger site
+Third party involvement for pricing (DOE, Exeter, Munich Power Company)
+Pricing structure; ORNL and LRZ variable; LLNL flat rate
+Differences:
+Price sensitivity to variable rates:  LRZ most sensitive, ORNL less sensitive and LLNL not applicable (flat rate)
+Swings:  LLNL= good citizen only, ORNL= in the noise, LRZ= highly responsive
+Electricity generation mix (US = largely thermal; Europe = largely renewable)
+The discussions section should focus on what this means in the context of the paper's goals and objectives. 
+
+-Rish
+
+On Thu, Dec 17, 2015 at 6:57 PM, Natalie Bates <natalie.jean.bates@gmail.com> wrote:
+This is my view of the ORNL, LLNL, LRZ data that I'm comfortable sharing  This could be summarized in a table.
+
+Similarities:  
+Annual negotiation
+Power band;  ORNL and LRZ, not sure about LLNL (they do have an upper-bound)
+Negotiation done for larger site
+Third party involvement for pricing (DOE, Exeter, Munich Power Company)
+Pricing structure; ORNL and LRZ variable; LLNL flat rate
+Differences:
+Price sensitivity to variable rates:  LRZ most sensitive, ORNL less sensitive and LLNL not applicable (flat rate)
+Swings:  LLNL= good citizen only, ORNL= in the noise, LRZ= highly responsive
 
 
 %Table \ref{tabIntw} presents details of this qualitative analysis. We have recorded the results in a tabular form to facilitate comparison between the three sites under consideration. 
@@ -66,36 +136,4 @@ In order to shed light on the details of the relationships between SCs and ESPs 
 %\hline
 % \end{tabular}
 % \end{table}
-
-\subsection{ORNL}
-For ORNL, the DOE negotiates the contract with the ESP.  ORNL gets its power from TVA, which generates, transmits and distributes the power. The DOE and TVA negotiate the power capacity that is being provisioned each year. Typically, a range for operation is chosen, for the current year, this range is 35 MW to 75 MW. 
-In terms of electricity pricing, ORNL incurs two kinds of charges: a demand charge, which is fixed for a month, and an energy charge based on actual power consumption. The demand charge is determined by analyzing 30 minute blocks and by determining the peak or maximum value for the month. The demand charge can be off-peak or on-peak based on the time of the day. It has a time-of-use per day component. The energy charge is a step function. The base charge for energy is under 4 cents per kwh, which is low when compared to the industry. Also, the more energy the site consumes in kWh, the lower is the base charge. As a result, ORNL wants to keep its systems fully utilized in terms of power. Including all the costs as well as seasonal charges, ORNL pays about 9.4 cents per kWh. ORNL's provider, TVA, is not affected by power swings of a few megawatts (5 to 8 MW) and is very reliable. \\
-
-ORNL does not have any obligations and provide any services to its ESP.  The only requirement is to operate in the range that was negotiated (35 MW to 75 MW). They have a model that explains their power usage that they provide to the TVA annually, but there is no two-way communication or forecasting or In general, the capital expenditure for the supercomputing center dominates the operational costs. As the HPC system cost depreciates with time (for example, Titan's depreciation is about 20K dollars per hour), there is little financial incentive to be flexible and to save on electricity costs, as the capital expenditure dominates the operational expenditure. The goal is thus to keep their site fully utilized in terms of power. 
-
-\subsection{LLNL}
-In the case of LLNL, the DOE negotiates the contract with the ESP with the help of a consulting company called Exeter.  A bulk purchase of power is made for about 100 MW of power capacity from the California-Oregon Transmission Project or COTP and is shared between LLNL and two other DOE sites. PG\&E is used for transmission and distribution and WAPA is used for generation. In terms of electricity pricing, LLNL does not pay a demand charge, but only pays a flat energy charge of about 4.5 cents per kWh, which is on the lower side when compared to the industry. Forecasting is done on a regular basis to be a good citizen. There is no financial incentive to save energy costs. There are no obligations from the ESP and no services are provided. The goal is to keep the site fully utilized in terms of power and to minimize leftover power.  
-
-\subsection{LRZ}
-The power contract between LRZ and \emph{Stadtwerke München}, a Munich Power Company
-is the result of pan-European procurement. LRZ purchases a basic power band for one
-or multiple years at the European power stock exchange. Hence, the power price is
-determined by the European stock market. Additionally, there are charges for the
-power grid, renewable energy, concession levy as well as taxes which are significant.
-The charges for power generation and distribution constitute only 25\% of
-the power price in Germany. As a result, the energy costs are very expensive for LRZ.
-
-LRZ operates in a 4 to 6 MW power band. Typically, they pay about
-17.8 Euro-cents per kWh. Having consistent power consumption is usually considered better,
-as huge power swings result in much higher electricity costs. It is thus imperative
-to be able to forecast any power swings and to inform the ESP about
-the same. Better prediction models for power usage will definitely benefit
-LRZ in terms of electricity costs, as one of their goals is to save on
-energy costs. This is primarily because their energy costs dominate their
-operational costs. Typically, LRZ lets the ESP know about 2 days in
-advance for any scheduled downtimes. At present, there are no major
-obligations toward or services provided to the ESP, mostly because of
-the QOS guarantees that have to be adhered to for their users.
-
-\subsection{Analysis}
 
