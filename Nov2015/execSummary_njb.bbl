@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{Top500}
+{T}op500 {S}upercomputer {S}ites.
+\newblock November 2014.
+\newblock \url{http://www.top500.org/lists/2014/11}.
+
 \bibitem{aikema2012data}
 D.~Aikema, R.~Simmonds, and H.~Zareipour.
 \newblock Data centres in the ancillary services market.
@@ -14,9 +19,8 @@ B.~Aksanli, E.~Pettis, and T.~Rosing.
   pages 242--253, 2013.
 
 \bibitem{BatesESP}
-Natalie Bates, Girish Ghatikar, Ghaleb Abdulla, Gregory~A. Koenig, Sridutt
-  Bhalachandra, Mehdi Sheikhalishahi, Tapasya Patki, Barry Rountree, and
-  Stephen Poole.
+N.~Bates, G.~Ghatikar, G.~Abdulla, G.~Koenig, S.~Bhalachandra,
+  M.~Sheikhalishahi, T.~Patki, B.~Rountree, and S.~Poole.
 \newblock {Electrical Grid and Supercomputing Centers: An Investigative
   Analysis of Emerging Opportunities and Challenges}.
 \newblock {\em Informatik-Spektrum}, 38(2):111--127, 2015.
@@ -51,6 +55,12 @@ D.~Chiu, C.~Stewart, and B.~McManus.
 \newblock Electric grid balancing through low cost workload migration.
 \newblock {\em SIGMETRICS Performance Evaluation Review}, 40(3):48--52, 2012.
 
+\bibitem{clausen2014load}
+A.~Clausen, G.~Ghatikar, and B.N. Jorgensen.
+\newblock Load management of data centers as regulation capacity in denmark.
+\newblock In {\em Green Computing Conference (IGCC), 2014 International}, pages
+  1--10. IEEE, 2014.
+
 \bibitem{GoogleAdv}
 Google Energy.
 \newblock Ferc order granting market-based rate authorization.
@@ -59,8 +69,8 @@ Google Energy.
 \bibitem{ghamkhari2012data}
 M.~Ghamkhari and H.~Mohsenian-Rad.
 \newblock Data centers to offer ancillary services.
-\newblock In {\em Smart Grid Communications (SmartGridComm), 3rd International
-  Conference on}, pages 436--441. IEEE, 2012.
+\newblock In {\em Smart Grid Communications, 3rd International Conference on},
+  pages 436--441. IEEE, 2012.
 
 \bibitem{ghatikar2012demand}
 G.~Ghatikar, V.~Ganti, N.~Matson, and M.~A. Piette.
@@ -77,7 +87,9 @@ G.~Ghatikar, V.~Ganti, N.~Matson, and M.~A. Piette.
 \bibitem{WLLSMS}
 Oak Ridge~National Laboratory.
 \newblock {WL-LSMS Benchmark}.
-\newblock {\em \url{https://asc.llnl.gov/CORAL-benchmarks/#lsms}}, 2013.
+\newblock {\em
+  \url{https://www.olcf.ornl.gov/wp-content/training/electronic-structure-2012/Eisenbach_OakRidge_February.pdf}},
+  2013.
 
 \bibitem{lin2012online}
 M.~Lin, Z.~Liu, A.~Wierman, and L.~L. Andrew.
@@ -100,6 +112,16 @@ Z.~Liu, I.~Liu, S.~Low, and A.~Wierman.
 US~Department of~Energy.
 \newblock {Smart Grid}, 2015.
 \newblock \url{https://www.smartgrid.gov/the_smart_grid/smart_grid}.
+
+\bibitem{siano2014demand}
+P.~Siano.
+\newblock Demand response and smart grids? a survey.
+\newblock {\em Renewable and Sustainable Energy Reviews}, 30:461--478, 2014.
+
+\bibitem{DC4Cities}
+European Union.
+\newblock Dc4cities.
+\newblock {\em \url{http://www.dc4cities.eu/en/}}, 2015.
 
 \bibitem{urgaonkar2011optimal}
 R.~Urgaonkar, B.~Urgaonkar, M.~J. Neely, and A.~Sivasubramaniam.

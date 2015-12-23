@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  21 NOV 2015 16:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 DEC 2015 23:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -174,18 +174,18 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 (./execSummary_njb.aux)
 \openout1 = `execSummary_njb.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -249,93 +249,191 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 20.
+(Font)              <7> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 20.
+(Font)              <5> on input line 23.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 23.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 23.
 
-<figs/Sequoia.jpg, id=1, 327.1422pt x 258.7266pt>
-File: figs/Sequoia.jpg Graphic file (type jpg)
- <use figs/Sequoia.jpg>
-Package pdftex.def Info: figs/Sequoia.jpg used on input line 27.
-(pdftex.def)             Requested size: 228.99797pt x 181.10736pt.
+Underfull \hbox (badness 1199) in paragraph at lines 26--28
+\OT1/cmr/m/n/9 de-mands, which in-crease the chal-lenges of the Elec-tric-ity S
+er-vice
+ []
 
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2 <./figs/Sequoia.jpg>] <figs/USLoad.jpg, id=14, 443.41933pt x 281.33679pt>
-File: figs/USLoad.jpg Graphic file (type jpg)
-
-<use figs/USLoad.jpg>
-Package pdftex.def Info: figs/USLoad.jpg used on input line 44.
-(pdftex.def)             Requested size: 310.3914pt x 196.9344pt.
- <figs/EULoad.jpg, id=15, 316.87616pt x 88.33pt>
-File: figs/EULoad.jpg Graphic file (type jpg)
-
-<use figs/EULoad.jpg>
-Package pdftex.def Info: figs/EULoad.jpg used on input line 52.
-(pdftex.def)             Requested size: 316.87538pt x 88.32977pt.
- [3 <./figs/USLoad.jpg> <./figs/EULoad.jpg>]
-<figs/USVar.jpg, id=19, 363.3575pt x 217.81375pt>
-File: figs/USVar.jpg Graphic file (type jpg)
- <use figs/USVar.jpg>
-Package pdftex.def Info: figs/USVar.jpg used on input line 62.
-(pdftex.def)             Requested size: 290.68639pt x 174.25122pt.
-
-<figs/EUVar.jpg, id=20, 279.0425pt x 102.3825pt>
-File: figs/EUVar.jpg Graphic file (type jpg)
- <use figs/EUVar.jpg>
-Package pdftex.def Info: figs/EUVar.jpg used on input line 70.
-(pdftex.def)             Requested size: 223.2343pt x 81.9061pt.
- [4 <./figs/USVar.jpg> <./figs/EUVar.jpg>] <figs/Table2.jpg, id=25, 722.7pt x 3
-32.64pt>
-File: figs/Table2.jpg Graphic file (type jpg)
-
-<use figs/Table2.jpg>
-Package pdftex.def Info: figs/Table2.jpg used on input line 87.
-(pdftex.def)             Requested size: 361.3491pt x 166.31958pt.
-
-Overfull \hbox (14.22557pt too wide) in paragraph at lines 87--88
- [] 
+(./intro.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+\OT1/cmr/m/n/9 Current Su-per-com-put-ing Cen-ters (SCs) for High-Performance
  []
 
-[5] [6 <./figs/Table2.jpg>] <figs/Table3.jpg, id=32, 526.6074pt x 177.3024pt>
-File: figs/Table3.jpg Graphic file (type jpg)
 
-<use figs/Table3.jpg>
-Package pdftex.def Info: figs/Table3.jpg used on input line 112.
-(pdftex.def)             Requested size: 263.30305pt x 88.65097pt.
- (./execSummary_njb.bbl
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 6.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 6.
-) [7 <./figs/Table3.jpg>]
-(./execSummary_njb.aux)
+Underfull \hbox (badness 2990) in paragraph at lines 4--5
+\OT1/cmr/m/n/9 Com-put-ing (HPC) with peta-scale ca-pa-bil-i-ties have high pow
+er
+ []
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
- ) 
+Underfull \hbox (badness 2564) in paragraph at lines 6--7
+\OT1/cmr/m/n/9 Go-ing for-ward, how-ever, it is ex-pected that a multi-directio
+nal
+ []
+
+[2]
+Underfull \hbox (badness 1314) in paragraph at lines 18--19
+[]\OT1/cmr/m/n/9 Understanding the sim-i-lar-i-ties and dif-fer-ences in the ES
+P-SC
+ []
+
+) (./strategies.tex [3] <figs/seq.pdf, id=19, 505.89pt x 252.945pt>
+File: figs/seq.pdf Graphic file (type pdf)
+
+<use figs/seq.pdf>
+Package pdftex.def Info: figs/seq.pdf used on input line 7.
+(pdftex.def)             Requested size: 278.24034pt x 139.12018pt.
+ <figs/ORNLData.pdf, id=20, 433.62pt x 289.08pt>
+File: figs/ORNLData.pdf Graphic file (type pdf)
+
+<use figs/ORNLData.pdf>
+Package pdftex.def Info: figs/ORNLData.pdf used on input line 15.
+(pdftex.def)             Requested size: 238.49173pt x 158.99448pt.
+ [4 <./figs/seq.pdf>] [5 <./figs/ORNLData.pdf>])
+(./results.tex <figs/loadgraphUS.pdf, id=49, 433.62pt x 289.08pt>
+File: figs/loadgraphUS.pdf Graphic file (type pdf)
+
+<use figs/loadgraphUS.pdf>
+Package pdftex.def Info: figs/loadgraphUS.pdf used on input line 8.
+(pdftex.def)             Requested size: 251.49977pt x 167.6665pt.
+ <figs/loadgraphEU.pdf, id=50, 433.62pt x 289.08pt>
+File: figs/loadgraphEU.pdf Graphic file (type pdf)
+
+<use figs/loadgraphEU.pdf>
+Package pdftex.def Info: figs/loadgraphEU.pdf used on input line 12.
+(pdftex.def)             Requested size: 251.49977pt x 167.6665pt.
+ <figs/vargraphUS.pdf, id=51, 433.62pt x 289.08pt>
+File: figs/vargraphUS.pdf Graphic file (type pdf)
+
+<use figs/vargraphUS.pdf>
+Package pdftex.def Info: figs/vargraphUS.pdf used on input line 22.
+(pdftex.def)             Requested size: 251.49977pt x 167.6665pt.
+ <figs/vargraphEU.pdf, id=52, 433.62pt x 289.08pt>
+File: figs/vargraphEU.pdf Graphic file (type pdf)
+
+<use figs/vargraphEU.pdf>
+Package pdftex.def Info: figs/vargraphEU.pdf used on input line 26.
+(pdftex.def)             Requested size: 251.49977pt x 167.6665pt.
+ [6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./figs/loadgraphUS.pdf> <./figs/loadgraphEU.pdf>] [8 <./figs/vargraphUS.pd
+f> <./figs/vargraphEU.pdf>] (./Table2.jpg.tex) (./Table3.jpg.tex) [9]) (./intws
+.tex
+[10]
+Underfull \hbox (badness 3148) in paragraph at lines 13--14
+\OT1/cmr/m/n/9 lo-cal gen-er-a-tion ca-pac-ity; or looser, for ex-am-ple, by be
+-ing
+ []
+
+[11] [12]
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--54
+
+ []
+
+) (./relwork.tex [13] (./RelatedWork_HaoChen.tex)) (./summary.tex [14]
+Underfull \hbox (badness 1527) in paragraph at lines 4--5
+\OT1/cmr/m/n/9 the mo-ti-va-tion and rea-sons be-hind this re-sult. We ob-serve
+ that
+ []
+
+) (./additionalAuth.tex) (./ack.tex) (./execSummary_njb.bbl [15]
+Underfull \hbox (badness 1028) in paragraph at lines 14--20
+\OT1/cmr/m/n/9 power shav-ing us-ing bat-ter-ies in data cen-ters.  In \OT1/cmr
+/m/it/9 Mod-el-ing,
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 14--20
+\OT1/cmr/m/it/9 Anal-y-sis and Sim-u-la-tion of Com-puter and Telecom-mu-ni-ca-
+tion
+ []
+
+
+Underfull \hbox (badness 6842) in paragraph at lines 88--93
+[]\OT1/cmr/m/n/9 Oak Ridge Na-tional Lab-o-ra-tory.  WL-LSMS Bench-mark.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--93
+\OT1/cmtt/m/it/9 https : / / www . olcf . ornl . gov / wp-[]content / training 
+/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--93
+\OT1/cmtt/m/it/9 electronic-[]structure-[]2012 / Eisenbach _ OakRidge _ Februar
+y .
+ []
+
+[16]
+Underfull \hbox (badness 1527) in paragraph at lines 127--132
+\OT1/cmr/m/n/9 In \OT1/cmr/m/it/9 Pro-ceed-ings of the ACM SIG-MET-RICS joint i
+n-ter-na-tional
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 134--138
+[]\OT1/cmr/m/n/9 D. Wang, C. Ren, A. Siva-sub-ra-ma-niam, B. Ur-gaonkar, and
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 134--138
+\OT1/cmr/m/n/9 H. Fathy.  En-ergy stor-age in dat-a-cen-ters: what, where, and
+ []
+
+) (./appendix.tex
+Missing character: There is no ­ in font cmr9!
+Missing character: There is no ­ in font cmr9!
+ [17]
+Missing character: There is no ­ in font cmr9!
+Missing character: There is no ­ in font cmr9!
+Missing character: There is no ­ in font cmr9!
+) [18] (./execSummary_njb.aux) ) 
 Here is how much of TeX's memory you used:
- 2065 strings out of 493089
- 28478 string characters out of 6134842
- 98007 words of memory out of 5000000
- 5528 multiletter control sequences out of 15000+600000
- 7839 words of font info for 28 fonts, out of 8000000 for 9000
+ 2129 strings out of 493089
+ 29388 string characters out of 6134842
+ 99507 words of memory out of 5000000
+ 5558 multiletter control sequences out of 15000+600000
+ 7969 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,7n,23p,2219b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on execSummary_njb.pdf (7 pages, 224868 bytes).
+ 37i,9n,23p,1901b,291s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmitt10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmti9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmtt9.pfb>
+Output written on execSummary_njb.pdf (18 pages, 251499 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 155 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
