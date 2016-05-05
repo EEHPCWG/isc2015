@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 DEC 2015 23:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 MAY 2016 11:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -306,43 +306,39 @@ File: figs/loadgraphUS.pdf Graphic file (type pdf)
 
 <use figs/loadgraphUS.pdf>
 Package pdftex.def Info: figs/loadgraphUS.pdf used on input line 8.
-(pdftex.def)             Requested size: 251.49977pt x 167.6665pt.
+(pdftex.def)             Requested size: 242.82555pt x 161.88368pt.
  <figs/loadgraphEU.pdf, id=50, 433.62pt x 289.08pt>
 File: figs/loadgraphEU.pdf Graphic file (type pdf)
 
 <use figs/loadgraphEU.pdf>
 Package pdftex.def Info: figs/loadgraphEU.pdf used on input line 12.
-(pdftex.def)             Requested size: 251.49977pt x 167.6665pt.
+(pdftex.def)             Requested size: 242.82555pt x 161.88368pt.
  <figs/vargraphUS.pdf, id=51, 433.62pt x 289.08pt>
 File: figs/vargraphUS.pdf Graphic file (type pdf)
 
 <use figs/vargraphUS.pdf>
 Package pdftex.def Info: figs/vargraphUS.pdf used on input line 22.
-(pdftex.def)             Requested size: 251.49977pt x 167.6665pt.
+(pdftex.def)             Requested size: 242.82555pt x 161.88368pt.
  <figs/vargraphEU.pdf, id=52, 433.62pt x 289.08pt>
 File: figs/vargraphEU.pdf Graphic file (type pdf)
 
 <use figs/vargraphEU.pdf>
 Package pdftex.def Info: figs/vargraphEU.pdf used on input line 26.
-(pdftex.def)             Requested size: 251.49977pt x 167.6665pt.
- [6]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7 <./figs/loadgraphUS.pdf> <./figs/loadgraphEU.pdf>] [8 <./figs/vargraphUS.pd
-f> <./figs/vargraphEU.pdf>] (./Table2.jpg.tex) (./Table3.jpg.tex) [9]) (./intws
-.tex
-[10]
+(pdftex.def)             Requested size: 242.82555pt x 161.88368pt.
+ [6] [7 <./figs/loadgraphUS.pdf> <./figs/loadgraphEU.pdf>] [8 <./figs/vargraphU
+S.pdf> <./figs/vargraphEU.pdf>] (./Table2.jpg.tex)
+(./Table3.jpg.tex) [9]) (./intws.tex [10]
 Underfull \hbox (badness 3148) in paragraph at lines 13--14
 \OT1/cmr/m/n/9 lo-cal gen-er-a-tion ca-pac-ity; or looser, for ex-am-ple, by be
 -ing
  []
 
-[11] [12]
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
-
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 49--51
 
  []
@@ -352,13 +348,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--54
 
  []
 
-) (./relwork.tex [13] (./RelatedWork_HaoChen.tex)) (./summary.tex [14]
+) (./relwork.tex (./RelatedWork_HaoChen.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]))
+(./summary.tex
 Underfull \hbox (badness 1527) in paragraph at lines 4--5
 \OT1/cmr/m/n/9 the mo-ti-va-tion and rea-sons be-hind this re-sult. We ob-serve
  that
  []
 
-) (./additionalAuth.tex) (./ack.tex) (./execSummary_njb.bbl [15]
+[14]) (./additionalAuth.tex) (./ack.tex) (./execSummary_njb.bbl [15]
 Underfull \hbox (badness 1028) in paragraph at lines 14--20
 \OT1/cmr/m/n/9 power shav-ing us-ing bat-ter-ies in data cen-ters.  In \OT1/cmr
 /m/it/9 Mod-el-ing,
@@ -414,7 +414,7 @@ Missing character: There is no ­ in font cmr9!
 Here is how much of TeX's memory you used:
  2129 strings out of 493089
  29388 string characters out of 6134842
- 99507 words of memory out of 5000000
+ 99506 words of memory out of 5000000
  5558 multiletter control sequences out of 15000+600000
  7969 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -430,7 +430,7 @@ msfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmr9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmti9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmtt9.pfb>
-Output written on execSummary_njb.pdf (18 pages, 251499 bytes).
+Output written on execSummary_njb.pdf (18 pages, 251489 bytes).
 PDF statistics:
  155 PDF objects out of 1000 (max. 8388607)
  109 compressed objects within 2 object streams
